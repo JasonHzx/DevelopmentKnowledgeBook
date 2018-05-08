@@ -101,7 +101,12 @@ View ->Tool Window ->Gradle View，开启GradleView则自动分析给出报告�
 这是因为其他顶级依赖中也依赖了相同的版本，Gradle会自动分析下载最合适的依赖。
 
 
-##FAQ
+## 使用第三方插件生成依赖图，更直观的查看依赖关系
+
+[gradle-dependency-graph-generator-plugin](https://github.com/vanniktech/gradle-dependency-graph-generator-plugin)
+![](https://github.com/vanniktech/gradle-dependency-graph-generator-plugin/blob/master/example.png?raw=true)
+
+## FAQ
 * 	版本冲突时十分常见的，比如下面的例子
 
 ```java
